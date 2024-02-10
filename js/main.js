@@ -105,7 +105,7 @@ function comerPastas() {
 function comerPizza() {
     let menuPizza = true;
     while (menuPizza) {
-        let mensaje = "¿Qué pastas quieres?";
+        let mensaje = "¿Qué pizza quieres?";
         mensaje += "\n1) Muzzarela";
         mensaje += "\n2) Napolitana";
         mensaje += "\n3) Parmesano";
@@ -141,7 +141,7 @@ function comerPizza() {
 function comerHamburguesa() {
     let menuHamburguesa = true;
     while (menuHamburguesa) {
-        let mensaje = "¿Qué pastas quieres?";
+        let mensaje = "¿Qué hamburguesa quieres?";
         mensaje += "\n1) Onion Cheese";
         mensaje += "\n2) Monstruosa";
         mensaje += "\n3) Triple Cheese";
@@ -175,7 +175,7 @@ function comerHamburguesa() {
 function comerCarne() {
     let menuCarne = true;
     while (menuCarne) {
-        let mensaje = "¿Qué pastas quieres?";
+        let mensaje = "¿Qué hamburguesas quieres?";
         mensaje += "\n1) Onion Cheese";
         mensaje += "\n2) Monstruosa";
         mensaje += "\n3) Triple Cheese";
@@ -186,19 +186,19 @@ function comerCarne() {
             case "1":
                 bebida();
                 pedido.precioTotal += 800;
-                return "Onion Cheese";
+                return "Asado";
             case "2":
                 bebida();
                 pedido.precioTotal += 800;
-                return "Monstruosa";
+                return "Chinchulines";
             case "3":
                 bebida();
                 pedido.precioTotal += 800;
-                return "Triple Cheese";
+                return "Choripan";
             case "4":
                 bebida();
                 pedido.precioTotal += 800;
-                return "Paro cardiaco";
+                return "Matambre a la pizza";
             default:
                 alert("Elige una opción válida");
                 menuCarne = true;
