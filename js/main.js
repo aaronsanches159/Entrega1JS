@@ -79,19 +79,19 @@ function comerPastas() {
         switch (respuesta) {
             case "1":
                 bebida();
-                pedido.precioTotal += 800;
-                return "Fideos";
+                pedido.precioTotal += 1200;
+                return "Penne Rigate";
             case "2":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 1600;
                 return "Tagliatonne";
             case "3":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 2000;
                 return "Ravioles";
             case "4":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 2500;
                 return "Canelones";
             default:
                 alert("Elige una opción válida");
@@ -115,19 +115,19 @@ function comerPizza() {
         switch (respuesta) {
             case "1":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 3000;
                 return "Muzzarela";
             case "2":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 3100;
                 return "Napolitana";
             case "3":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 3600;
                 return "Parmesano";
             case "4":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 3100;
                 return "Rucula";
             default:
                 alert("Elige una opción válida");
@@ -151,19 +151,19 @@ function comerHamburguesa() {
         switch (respuesta) {
             case "1":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 4200;
                 return "Onion Cheese";
             case "2":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 7200;
                 return "Monstruosa";
             case "3":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 4600;
                 return "Triple Cheese";
             case "4":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 5500;
                 return "Paro cardiaco";
             default:
                 alert("Elige una opción válida");
@@ -175,29 +175,29 @@ function comerHamburguesa() {
 function comerCarne() {
     let menuCarne = true;
     while (menuCarne) {
-        let mensaje = "¿Qué hamburguesas quieres?";
-        mensaje += "\n1) Onion Cheese";
-        mensaje += "\n2) Monstruosa";
-        mensaje += "\n3) Triple Cheese";
-        mensaje += "\n4) Paro cardiaco";
+        let mensaje = "¿Qué carne a la parrilla quieres?";
+        mensaje += "\n1) Asado";
+        mensaje += "\n2) Chinchulines";
+        mensaje += "\n3) Choripan";
+        mensaje += "\n4) Matambre a la pizza";
 
         let respuesta = prompt(mensaje);
         switch (respuesta) {
             case "1":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 4000;
                 return "Asado";
             case "2":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 1500;
                 return "Chinchulines";
             case "3":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 2300;
                 return "Choripan";
             case "4":
                 bebida();
-                pedido.precioTotal += 800;
+                pedido.precioTotal += 5000;
                 return "Matambre a la pizza";
             default:
                 alert("Elige una opción válida");
@@ -222,17 +222,17 @@ function bebida() {
         switch (respuesta) {
             case "1":
                 pedido.bebida = "Coca-Cola";
-                pedido.precioTotal += 1000;
+                pedido.precioTotal += 1100;
                 menuBebida = false;
                 break;
             case "2":
                 pedido.bebida = "Pepsi";
-                pedido.precioTotal += 1000;
+                pedido.precioTotal += 100;
                 menuBebida = false;
                 break;
             case "3":
                 pedido.bebida = "7-Up";
-                pedido.precioTotal += 1000;
+                pedido.precioTotal += 1100;
                 menuBebida = false;
                 break;
             case "4":
