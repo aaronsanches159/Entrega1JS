@@ -37,7 +37,7 @@ function mostrarMenu() {
         mensaje += "\n2) Pizza";
         mensaje += "\n3) Hamburguesa";
         mensaje += "\n4) Carne a la parrilla";
-        mensaje += "\n5) Hacer pedido";
+        mensaje += "\n5) Hacer pedido (Seleccionar cuando termines de ordenar)";
 
         let respuesta = prompt(mensaje);
         switch (respuesta) {
